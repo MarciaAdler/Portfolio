@@ -68,16 +68,22 @@ hr {
     color: #777777;
     display: inline-block;
     margin: 100px;
+    
 }
 
 .title {
     color: #4aaaa5;
     margin: 25px;
-
 }
+
 #me {
     float: left;
     margin: 10px;
+    
+}
+
+.maincontainer {
+    padding: 0 20px;
 }
 
 input[type=text], select, textarea {
@@ -105,18 +111,6 @@ input[type=submit] {
     padding: 20px;
     width: 700px;
 }
-
-
-/*#videogamelabel {
-        position: absolute;
-        color: white;
-        background-color: #4aaaa5;
-        width: 200px;
-        text-align: center;
-        height: 50px;  
-        font-size: 25px;
-        padding: 10px;
-}*/
 
 #videogames {
     width: 200px;
