@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{
     background-image: url("../images/embossed-diamond.png");
     font-family: 'arial', 'helvetica Neue', 'Helvetica', 'sans-serif' 
@@ -12,7 +15,7 @@ header {
     position: fixed;
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    position: fixed;
 }
 
 .clearfix::after {
@@ -31,15 +34,14 @@ h1 {
     float: left;
     color: #ffffff;
     
-    
 }
 
 
 nav {
-    float: left;
     top: 0;
-    display: inline;
     margin: 25px 100px 0 400px;
+    float: left;
+    
 }
 
 a {
@@ -102,30 +104,118 @@ input[type=submit] {
     background-color: #ffffff;
     padding: 20px;
     width: 700px;
-  }
-
-.imageContainer {
-      position: relative;
-      text-align: left;
-      color: white;
-      float: left;
-  }
-
-.bottomcenter {
-    position: absolute;
-    top: 75%;
-    text-align: center;
-    background-color: #4aaaa5;
-    color: white;
 }
-#blog {
-    height: 150px;
+
+.imagecontainer {
+    
+}    
+#videogamelabel {
+        position: absolute;
+        color: white;
+        background-color: #4aaaa5;
+        width: 200px;
+        text-align: center;
+        height: 50px;  
+        font-size: 25px;
+}
+
+#videogames {
     width: 200px;
-    float: left;
-    position: absolute;
-    padding: 0 100px 50px 100px;
+    height: 200px;
+    margin: 0 25px;
+
 }
 
+#videogamelabel {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    height: 50px;  
+    font-size: 25px;
+    z-index: 1;
+    left: 11.4%;
+    top: 55.6%; 
+}
+
+#blog {
+    width: 200px;
+    height: 200px;
+    margin: 0 25px;
+      
+}
+#bloglabel {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    height: 50px;  
+    font-size: 25px;
+    z-index: 1;
+    left: 33.1%; 
+    top: 55.6%;
+ }
+
+#triviagame {
+    width: 200px;
+    height: 200px;
+    margin: 0 25px;
+    
+}
+
+#trivialabel {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    height: 50px;  
+    font-size: 25px;
+    z-index: 1;
+    left: 54.9%; 
+    top: 55.6%;
+ }
+
+#infowidget {
+    width: 200px;
+    height: 200px;
+    margin: 25px 25px;
+    
+}
+
+#widgetlabel {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    height: 50px;  
+    font-size: 25px;
+    z-index: 1;
+    left: 11.4%; 
+    top: 91.6%;
+ }
+
+#slotmachine {
+    width: 200px;
+    height: 200px;
+    margin: 25px 25px;
+}
+
+#slotlabel {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    height: 50px;  
+    font-size: 25px;
+    z-index: 1;
+    left: 33.1%; 
+    top: 91.6%;
+ }
 
 footer {
     background: #666666;
