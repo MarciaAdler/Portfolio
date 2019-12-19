@@ -29,7 +29,8 @@ h1 {
     width: 250px;
     height: 65px;
     text-align: center;
-    margin: 0px 100px;
+    
+    margin: 0 0 0 13%;
     padding: 10px 0 5px 0; 
     float: left;
     color: #ffffff;
@@ -68,7 +69,7 @@ hr {
     border-color: #dddddd;
     color: #777777;
     display: inline-block;
-    margin: 100px;
+    margin: 100px 20%;
     
 }
 
