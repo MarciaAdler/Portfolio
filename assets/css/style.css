@@ -15,7 +15,7 @@ header {
     position: fixed;
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: fixed;
+    z-index: 1;
 }
 
 .clearfix::after {
@@ -39,9 +39,10 @@ h1 {
 
 nav {
     top: 0;
-    margin: 25px 100px 0 400px;
+    left: 65%;  
+    margin: 25px 0 0 0;
     float: left;
-    
+    position: absolute;
 }
 
 a {
@@ -68,6 +69,7 @@ hr {
     color: #777777;
     display: inline-block;
     margin: 100px;
+    
 }
 
 .title {
@@ -110,50 +112,63 @@ input[type=submit] {
     width: 700px;
 }
 
-#videogames {
+.imagecontainer {
     width: 200px;
+    float: left;
     height: 200px;
-    margin: 0 25px;
+    margin: 25px;
+    position: relative;
+    
+}
 
+#videogames {
+    width: 100%;
+    height: 100%;
+    margin: 0 25px;
+    position: absolute;
+    
 }
 
 #videogamelabel {
     position: absolute;
     color: white;
     background-color: #4aaaa5;
-    width: 200px;
+    width: 100%;
     text-align: center;
-    height: 50px;  
+    height: 25%;  
     font-size: 25px;
     z-index: 1;
-    left: 11.4%;
-    top: 55.6%; 
     padding: 10px;
+    margin: 0;
+    left: 12.5%;
+    top: 75%;    
+    
 }
 
 #blog {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin: 0 25px;
-      
 }
+
 #bloglabel {
     position: absolute;
     color: white;
     background-color: #4aaaa5;
-    width: 200px;
+    width: 100%;
     text-align: center;
-    height: 50px;  
+    height: 25%;  
     font-size: 25px;
     z-index: 1;
-    left: 33.1%; 
-    top: 55.6%;
+    left: 12.5%;
+    top: 75%;
     padding: 10px;
+    
  }
 
 #triviagame {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin: 0 25px;
     
 }
@@ -162,20 +177,22 @@ input[type=submit] {
     position: absolute;
     color: white;
     background-color: #4aaaa5;
-    width: 200px;
+    width: 100%;
     text-align: center;
-    height: 50px;  
+    height: 25%;  
     font-size: 25px;
     z-index: 1;
-    left: 54.9%; 
-    top: 55.6%;
+    left: 12.5%;
+    top: 75%;
     padding: 10px;
+    
  }
 
 #infowidget {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin: 25px 25px;
+    position: absolute;
     
 }
 
@@ -183,19 +200,19 @@ input[type=submit] {
     position: absolute;
     color: white;
     background-color: #4aaaa5;
-    width: 200px;
+    width: 100%;
     text-align: center;
-    height: 50px;  
+    height: 25%;  
     font-size: 25px;
     z-index: 1;
-    left: 11.4%; 
-    top: 91.6%;
+    left: 12.5%;
+    top: 87.7%;
     padding: 10px;
  }
 
 #slotmachine {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     margin: 25px 25px;
 }
 
@@ -203,13 +220,13 @@ input[type=submit] {
     position: absolute;
     color: white;
     background-color: #4aaaa5;
-    width: 200px;
+    width: 100%;
     text-align: center;
-    height: 50px;  
+    height: 25%;  
     font-size: 25px;
     z-index: 1;
-    left: 33.1%; 
-    top: 91.6%;
+    left: 12.5%;
+    top: 87.7%;
     padding: 10px;
  }
 
