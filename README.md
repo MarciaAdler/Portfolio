@@ -1,6 +1,6 @@
 # Portfolio
 
-## User Sotry
+## User Story
 
 As a web developer, I want a deployed portfolio, so that I can showcase my applications to potential employers and clients.
 
